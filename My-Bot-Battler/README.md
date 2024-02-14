@@ -1,8 +1,26 @@
-# React + Vite
+# Bot Battlr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bot Battlr is a web application where users can enlist bots into their army, release them, and discharge them permanently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View profiles of all bots in the `BotCollection`.
+- Add individual bots to your army by clicking on them.
+- Release bots from your army.
+- Discharge bots permanently from the army.
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML/CSS
+- JSON Server (for backend simulation)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-abdikadharjama/bot-battlr.git
+
+Author:Abdikadhar Jama
