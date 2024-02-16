@@ -7,7 +7,7 @@ function App() {
   const [army, setArmy] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8001/bots')
+    fetch('http://localhost:3000/bots')
       .then((response) => response.json())
       .then(setBots)
       .catch(error => console.error('Error fetching bots:', error));
@@ -24,7 +24,7 @@ function App() {
   };
 
   const dischargeBot = (botId) => {
-    fetch(`http://localhost:8001/bots/${botId}`, { method: 'DELETE' })
+    fetch(`http://localhost:3000/bots/${botId}`, { method: 'DELETE' })
       .then(() => {
         setBots((prevBots) => prevBots.filter((bot) => bot.id !== botId));
         setArmy((prevArmy) => prevArmy.filter((bot) => bot.id !== botId));
